@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="872" systemVersion="10K549" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Album" syncable="YES">
+        <attribute name="album" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Event">
+        <attribute name="timeStamp" optional="YES" attributeType="Date"/>
+    </entity>
+    <entity name="Tag" syncable="YES">
+        <attribute name="tag" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Album" positionX="160" positionY="192" width="128" height="60"/>
+        <element name="Event" positionX="261" positionY="189" width="128" height="60"/>
+        <element name="Tag" positionX="160" positionY="192" width="128" height="60"/>
+    </elements>
+</model>
